@@ -1,5 +1,6 @@
-const apiKey = 'YOUR_API_KEY';
-const url = `https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=${apiKey}&units=metric`;
+const apiKey = 'a9854075d238a8c3e83e544ff046d4c4';
+const url = `https://api.openweathermap.org/data/2.5/weather?q=New York City,us&appid=${apiKey}&units=metric`;
+
 
 fetch(url)
   .then(response => response.json())
